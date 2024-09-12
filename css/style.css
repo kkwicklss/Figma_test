@@ -341,6 +341,74 @@ body {
 .partner_item:last-child {
     padding-right: 0;
 }
+.services__h2 {
+}
+.reviews {
+
+}
+.reviews .services__h2 {
+    padding-top: 150px;
+}
+.reviews__flex {
+    display: flex;
+    margin-bottom: 130px;
+}
+.reviews__flex-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.reviews__text {
+    margin-bottom: 30px;
+    width: 350px;
+    height: 315px;
+    background-color: var(--background-color);
+}
+.reviews__img {
+    padding: 28px;
+}
+.reviews__p {
+    padding-left: 28px;
+    width: 290px;
+    color: var(--gray-color);
+}
+.contacts {
+    padding-top: 100px;
+    margin-bottom: 135px;
+}
+.services__h2 {
+}
+.contacts__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contacts__flex-item {
+    text-align: center;
+    text-transform: uppercase;
+}
+.contacts__flex-item .contacts__h4 {
+    color: var(--gray-color);
+}
+.contacts__img {
+    display: inline;
+    margin-bottom: 25px;
+}
+.contacts__h4 {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: var(--dark-color);
+}
+.footer__flex {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__p {
+    color: var(--white-color);
+}
+
 
 
 @media screen and (max-width: 1280px) {
